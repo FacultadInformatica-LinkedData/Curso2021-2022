@@ -1,0 +1,19 @@
+@base <http://www.w3.org/2000/01/rdf-schema>
+@prefix propClass: <http://www.w3.org/2000/01/rdf-schema#Class>
+@prefix propComp: <http://www.w3.org/2000/01/rdf-schema#Computer>
+@prefix propUser: <http://www.w3.org/2000/01/rdf-schema#User>
+@prefix propMeasure: <http://www.w3.org/2000/01/rdf-schema#Measurement>
+@prefix propSensor: <http://www.w3.org/2000/01/rdf-schema#Sensor>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+:Class01 propClass:includes:Sensor029;
+		 propClass:includes:Computer101;
+		 
+:Computer101 propComp:hasOwner: User10A;
+
+:User10A propUser:hasName: "Pedro"^^xsd:string;
+
+:Sensor029 propSensor:hasMeasurement:Measurement8401;
+
+:Measurement8401 propMeasure:hasTemperature: "29"^^xsd:integer;
+				 propMeasure:hasatTime:"2010-06-12T12:00:12"^^xsd:DateTome;
