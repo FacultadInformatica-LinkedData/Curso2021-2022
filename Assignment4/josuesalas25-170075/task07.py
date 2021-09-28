@@ -29,7 +29,7 @@ ns = Namespace("http://somewhere#")
 vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 
 print("RDFLib --> ")
-for s, p, o in g:
+for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
   print(s,p,o)
 
 query1 = prepareQuery('''
