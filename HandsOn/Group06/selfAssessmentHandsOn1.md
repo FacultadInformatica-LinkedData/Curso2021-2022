@@ -4,7 +4,7 @@
 
 **The “README.md” file:**
 
-- [?] Includes the names and GitHub users of all the members of the group
+- [x] Includes the names and GitHub users of all the members of the group
 
 **The "csv" directory:**
 
@@ -23,4 +23,3 @@
 
 ## Comments on the self-assessment
 _(If required)_
-- More people have contacted us during the weekend, but haven't responded to our mail.
