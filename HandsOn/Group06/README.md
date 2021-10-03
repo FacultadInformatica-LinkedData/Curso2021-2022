@@ -1,4 +1,4 @@
-# COMPONENTES DEL GRUPO 05
+# COMPONENTES DEL GRUPO 06
 
 - Josue Garcia Salas -> josuesalas25
 - Marian Martin Blazquez --> MMB99
