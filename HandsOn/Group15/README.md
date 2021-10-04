@@ -1,4 +1,4 @@
-# COMPONENTES DEL GRUPO 09
+# COMPONENTES DEL GRUPO 15
 
 - Josue Garcia Salas -> josuesalas25
 - Marian Martin Blazquez --> MMB99
