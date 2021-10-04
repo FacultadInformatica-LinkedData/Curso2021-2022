@@ -1,0 +1,70 @@
+{
+	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"briefDescription": "http://schema.org/description",
+		"person": "http://xmlns.com/foaf/0.1/Person/",
+		"name": "http://xmlns.com/foaf/0.1/name/",
+		"fullName": "rdfs:label",
+		"hometown": "rdfs:label",
+		"age": "rdfs:label",
+		"almaMater": "rdfs:label",
+		"parentsName": "rdfs:label",
+		"subjects": "http://www.etsiinf.com/subjects"
+	},
+	"@id": "http://exercise2b/SergioHervas",
+ 	"@type": "person",
+	"fullName": "Sergio Hervas Santiago",
+	"hometown": "Pinto",
+	"age": {
+		"@value": "21",
+		"@type": "xsd:integer"
+	},
+	"almaMater": "UPM",
+	"parentsName": [
+    		{
+              		"@id": "http://xmlns.com/foaf/0.1/name/PedroHervas",
+      			"@type": "person",
+      			"name": "Pedro Hervas"
+    		},
+    		{
+              		"@id": "http://xmlns.com/foaf/0.1/name/MariaSantiago",
+      			"@type": "person",
+      			"name": "Maria Santiago"
+    		}
+  	],
+	"subjects": [
+		{
+			"@id": "http://upm.com/etsiinf/so",
+      			"@type": "subject",
+      			"name": "Sistemas Operativos",
+     			 "teachers": [
+      			  	{
+        		 	 "@type": "person",
+        		 	 "name": "Francisco Rosales Garcia"
+      			 	 },
+       			 	{
+         			 "@type": "person",
+        			 "name": "Fernando Perez Costoya"
+       				 }
+     			 ],
+     			 "briefDescription": "Sistemas operativos UNIX"
+    		},
+		{
+			"@id": "http://upm.com/etsiinf/sp",
+      			"@type": "subject",
+      			"name": "Sistemas de Planificacion",
+     			 "teachers": [
+      			  	{
+        		 	 "@type": "person",
+        		 	 "name": "Vicente Martinez Orga"
+      			 	 },
+       			 	{
+         			 "@type": "person",
+        			 "name": "Miguel García Remesal"
+       				 }
+     			 ],
+     			 "briefDescription": "Planificacion software"
+    		}
+	]
+}
