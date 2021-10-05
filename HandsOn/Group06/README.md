@@ -1,7 +1,7 @@
-Group06
-Santiago Federico Caballero Pastor - santiagofedericocaballeropastor
-Andres Cardozo Blanco - Anddrex
-Raquel Hernández Recio - Raquelhrecio
-Toni Steger  - tsteger22
-Alvim Lin Tsai - iTzAlvin
+# Group06
+Stoneerr - Santiago Canabal Ramos
+belenrobles - Belén Robles Sánchez-Montero
+pablo2moral - Pablo Moral Hernández
+PILONCITO1357 - Javier Martínez Cuadrado
+Diegotinahones - Diego López Tinahones
 
