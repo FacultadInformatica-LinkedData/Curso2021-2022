@@ -1,0 +1,55 @@
+@prefix : <http://www.group07.es/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.group07.es/ontology> .
+
+
+<http://www.group07.es/ontology> rdf:type owl:Ontology .
+
+
+# Object Property
+
+
+:isInDistrict   rdf:type owl:ObjectProperty ;
+                rdfs:domain :Fountain ;
+                rdfs:range :District .
+
+# Data Property
+
+:fountainCode   rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Fountain ;
+                rdfs:range xsd:int .
+
+:isZoneType     rdf:type owl:DatatypeProperty ;
+                rdfs:domain :District ;
+                rdfs:range xsd:string .
+
+:hasAdress      rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Fountain ;
+                rdfs:range xsd:string .
+
+:hasState       rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Fountain ;
+                rdfs:range xsd:string .
+
+:hasLongitude   rdf:type owl:DatatypeProperty ;
+                rdfs:domain :District ;
+                rdfs:range xsd:double .
+
+:hasLatitude    rdf:type owl:DatatypeProperty ;
+                rdfs:domain :District ;
+                rdfs:range xsd:double .
+
+
+
+:hasDistrictName
+
+
+#Class
+
+:Fountain rdf:type owl:Class
+
+:District rdf:type owl:Class
+
