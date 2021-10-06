@@ -25,65 +25,6 @@
   </div>
 
   <div>
-    <h1>Data Analysing smart bins</h1>
-    <table border="1">
-      <tr style="background-color:#FADBD8">
-        <th>Column</th>
-        <th>Type</th>
-        <th>Comments / Range(rounded)</th>
-        <th>Problems</th>
-      </tr>
-      <tr>
-        <td>id</td>
-        <td>int</td>
-        <td>Unique</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>ResidualType</td>
-        <td>String</td>
-        <td>Organic/Plastics</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>address</td>
-        <td>String</td>
-        <td>Some repeated with different ResidualType</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>longitude</td>
-        <td>float</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>latitude</td>
-        <td>float</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>fullnessLevel</td>
-        <td>int</td>
-        <td>0-10</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>alert</td>
-        <td>String</td>
-        <td>FULL(8-10)/BLANK(0-7)/ERROR</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>date</td>
-        <td>Date</td>
-        <td>2021/10/02 - 2021/10/03</td>
-        <td></td>
-      </tr>
-    </table>
-  </div>
-  <div>
     <table border="1">
       <h1>Data Analysing districts and neighborhoods</h1>
       <tr style="background-color:#FADBD8">
@@ -146,9 +87,33 @@
         <td></td>
       </tr>
       <tr>
+        <td>district</td>
+        <td>String</td>
+        <td>not unique</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>address</td>
+        <td>String</td>
+        <td>not unique</td>
+        <td></td>
+      </tr>
+      <tr>
         <td>status</td>
         <td>String</td>
         <td>In service/out of service/temporally closed</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>longitude</td>
+        <td>Double</td>
+        <td>not unique</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>latitude</td>
+        <td>Double</td>
+        <td>not unique</td>
         <td></td>
       </tr>
     </table>
@@ -166,14 +131,12 @@
     <h2>Ontological terms path</h2>
     <p>http://www.smartCityParks.es/group07/ontology/Parks#</p>
     <h3>Example</h3>
-    <p>http://www.smartCityParks.es/group07/ontology/Parks#hasSmartBin</p>
+    <p>http://www.smartCityParks.es/group07/ontology/Parks#hasDistrictName</p>
 
     <h2>Individuals path</h2>
     <p>http://www.smartCityParks.es/group07/resource/</p>
     <h3>Example</h3>
-    <p>http://www.smartCityParks.es/group07/resource/Residue/organic</p>
+    <p>http://www.smartCityParks.es/group07/resource/Fountain/centro</p>
   </div>
-
-
 </body>
 </html>
