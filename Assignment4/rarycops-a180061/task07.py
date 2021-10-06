@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib 
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment4"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -23,16 +23,24 @@ g.parse(github_storage+"/resources/example6.rdf", format="xml")
 
 #RDFLib
 for s, p, o in g.triplets((None, RDFS.subClassOf, ns.Person)):
+    print(s)
     for s, p, o in g.triplets((None, RDFS.subClassOf, s)):
         print(s)
+
+for s, p, o in g.triplets((None, RDFS.subClassOf, ns.Person)):
+    for s, p, o in g.triplets((None, RDF.type, s)):
+        print(s)
+for s, p, o in g.triplets((None, RDF.type,ns.Person)):
+    print(s)
+
+for s, p, o in g.triplets((None, RDFS.subClassOf, ns.Person)):
     for s, p, o in g.triplets((None, RDF.type,s)):
-        print(s)
         for s, p, o in g.triplets((s, None, None)):
             print(s,p,o)
-    for s, p, o in g.triplets((None, RDF.type,ns.Person)):
-        print(s)
-        for s, p, o in g.triplets((s, None, None)):
-            print(s,p,o)
+for s, p, o in g.triplets((None, RDF.type,ns.Person)):
+    for s, p, o in g.triplets((s, None, None)):
+        print(s,p,o)
+
 #SPARQL
 from rdflib.plugins.sparql import prepareQuerry
 q = prepareQuerry\
@@ -52,7 +60,7 @@ q = prepareQuerry\
     SELECT ?s 
     WHERE 
     {
-        ?s rdfs:subClassOf* ns:Person.
+        ?x rdfs:subClassOf* ns:Person.
         ?s rdf:type ?x
     }
     ''',
@@ -65,7 +73,7 @@ q = prepareQuerry\
     SELECT ?s 
     WHERE 
     {
-        ?s rdfs:subClassOf* ns:Person.
+        ?x rdfs:subClassOf* ns:Person.
         ?s rdf:type ?x.
         ?s ?p ?o
     }
