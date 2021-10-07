@@ -21,7 +21,6 @@
 **The "applicationRequirements.html” file:**
 
 - [x] Includes a description of the application user interface
-=======
 - [X] Includes the names and GitHub users of all the members of the group
 
 **The "csv" directory:**
@@ -38,7 +37,6 @@
 **The "applicationRequirements.html” file:**
 
 - [X] Includes a description of the application user interface
->>>>>>> upstream/master
 
 ## Comments on the self-assessment
 _(If required)_
