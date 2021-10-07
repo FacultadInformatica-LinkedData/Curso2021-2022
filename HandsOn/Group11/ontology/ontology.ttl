@@ -1,0 +1,92 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+ @prefix safeMadrid: <http://safemadrid.linkeddata.es/> .
+ @prefix owl: <http://www.w3.org/2002/07/owl#> .
+ @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+ @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ safeMadrid: a owl:Ontology ;
+     dc:creator "Grupo11" ;
+     dc:description "Ontology code created by Chowlk" ;
+     dc:title "HandsOn 2" ;
+     owl:versionInfo "0.0.1" .
+
+ safeMadrid:N_EXPEDIENTE a owl:Class ;
+     rdfs:label "Nº EXPEDIENTE" .
+
+ safeMadrid:FECHA a owl:Class ;
+     rdfs:label "FECHA" .
+
+ safeMadrid:HORA a owl:Class ;
+     rdfs:label "HORA" .
+
+ safeMadrid:CALLE a owl:Class ;
+     rdfs:label "CALLE" .
+
+ safeMadrid:NUMERO a owl:Class ;
+     rdfs:label "NUMERO" .
+
+ safeMadrid:DISTRITO a owl:Class ;
+     rdfs:label "DISTRITO" .
+
+ safeMadrid:TIPO_ACCIDENTE a owl:Class ;
+     rdfs:label "TIPO ACCIDENTE" .
+
+ safeMadrid:ESTADO_METEREOLOGICO a owl:Class ;
+     rdfs:label "ESTADO METEREOLOGICO" .
+
+ safeMadrid:TIPO_VEHICULO a owl:Class ;
+     rdfs:label "TIPO VEHICULO" .
+
+ safeMadrid:TIPO_PERSONA a owl:Class ;
+     rdfs:label "TIPO PERSONA" .
+
+ safeMadrid:RANGO_DE_EDAD a owl:Class ;
+     rdfs:label "RANGO DE EDAD" .
+
+ safeMadrid:SEXO a owl:Class ;
+     rdfs:label "SEXO" .
+
+ safeMadrid:LESIVIDAD a owl:Class ;
+     rdfs:label "LESIVIDAD" .
+
+ safeMadrid:hasN_Expediente a owl:ObjectProperty ;
+     rdfs:label "has Nº Expediente" .
+
+ safeMadrid:hasFecha a owl:ObjectProperty ;
+     rdfs:label "has Fecha" .
+
+ safeMadrid:hasHora a owl:ObjectProperty ;
+     rdfs:label "has Hora" .
+
+ safeMadrid:hasCalle a owl:ObjectProperty ;
+     rdfs:label "has calle" .
+
+ safeMadrid:hasNumero a owl:DatatypeProperty ;
+     rdfs:label "has Numero" ;
+     rdfs:range xsd:string .
+
+ safeMadrid:hasDistrito a owl:DatatypeProperty ;
+     rdfs:label "has Distrito" ;
+     rdfs:range xsd:string .
+
+ safeMadrid:hasTipoAccidente a owl:DatatypeProperty ;
+     rdfs:label "has Tipo Accidente" ;
+     rdfs:range xsd:decimal .
+
+ safeMadrid:hasEstadoMetereologico a owl:ObjectProperty ;
+     rdfs:label "has Estado Metereologico" .
+
+ safeMadrid:hasTipoVehiculo a owl:ObjectProperty ;
+     rdfs:label "has Tipo Vehiculo" .
+
+ safeMadrid:hasTipoPersona a owl:ObjectProperty ;
+     rdfs:label "has Tipo Persona" .
+
+ safeMadrid:hasRangoDeEdad a owl:ObjectProperty ;
+     rdfs:label "has Rango de Edad" .
+
+ safeMadrid:hasSexo a owl:ObjectProperty ;
+     rdfs:label "has sexo" .
+
+ safeMadrid:hasLesividad a owl:ObjectProperty ;
+     rdfs:label "has lesividad" .
