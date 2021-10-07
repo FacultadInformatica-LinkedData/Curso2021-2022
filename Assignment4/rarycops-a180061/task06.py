@@ -32,7 +32,7 @@ g.add((ns.University, RDF.type, RDFS.Class))
 for s, p, o in g:
   print(s,p,o)
 
-g.add((ns.University, RDF.type, RDFS.Person))
+g.add((ns.University, RDF.type, RDFS.Class))
 for s, p, o in g:
   print(s,p,o)
 
@@ -41,7 +41,6 @@ g.add((ns.JaneSmith, RDF.type, ns.Researcher))
 for s, p, o in g:
   print(s,p,o)
 
-VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 g.add((ns.JaneSmith, VCARD.FN, Literal("Jane Smith")))
 g.add((ns.JaneSmith, VCARD.Given, Literal("Jane")))
 g.add((ns.JaneSmith, VCARD.Family, Literal("Smith")))
@@ -49,6 +48,6 @@ for s, p, o in g.triplets((ns.JaneSmith, None, None)):
   print(s,p,o)
 
 g.add((ns.UPM, RDF.type, ns.University))
-g.add((ns.JaneSmith, VCARD.Work, ns.UPM))
+g.add((ns.JaneSmith, VCARD.work, ns.UPM))
 for s, p, o in g.triplets((ns.JaneSmith, None, None)):
   print(s,p,o)
