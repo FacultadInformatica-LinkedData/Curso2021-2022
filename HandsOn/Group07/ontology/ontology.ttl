@@ -18,7 +18,7 @@
                                                          rdf:type owl:ObjectProperty ;
                                                          rdfs:subPropertyOf owl:topObjectProperty ;
                                                          rdfs:domain <http://www.smartCityParks.es/group07/Fountain> ;
-                                                         rdfs:range <<ttp://www.smartCityParks.es/group07/Fountain/Latitude> ;
+                                                         rdfs:range <http://www.smartCityParks.es/group07/Fountain/Latitude> ;
                                                          rdfs:label "hasLatittude"@en .
 
 
