@@ -16,7 +16,7 @@
 
 **The ontology file:**
 
-- [ ] Uses the .ttl extension
+- [x] Uses the .ttl extension
 - [ ] Is serialized in the Turtle format
 - [ ] Follows the resource naming strategy
 - [ ] Contains at least one class
