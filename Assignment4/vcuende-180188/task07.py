@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+"""!pip install rdflib"""
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -35,6 +35,13 @@ q1 = prepareQuery('''
   initNs = { "ns": NS}
 )
 
+print("RDFLib")
+for s,p,o in g.triples((None, RDFS.subClassOf, NS.Person)):
+  print(s)
+
+print("\n")
+
+print("SPARQL")
 for r in g.query(q1):
   print(r.Subject)
 
@@ -50,12 +57,23 @@ q1 = prepareQuery('''
   SELECT ?Subject WHERE { 
     {?Subject rdf:type ns:Person}
     UNION
-    {?Subject rdf:type ns:Researcher}
+    {?x rdfs:subClassOf ns:Person.
+      ?Subject rdf:type ?x}
   }
   ''',
   initNs = { "ns": NS}
 )
 
+print("RDFLib")
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+  print(s)
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
+  for s2,p2,o2 in g.triples((None, RDF.type, s)):
+    print(s2)
+
+print("\n")
+
+print("SPARQL")
 for r in g.query(q1):
   print(r.Subject)
 
@@ -66,16 +84,31 @@ for r in g.query(q1):
 from rdflib.plugins.sparql import prepareQuery
 
 NS = Namespace("http://somewhere#")
-
+ 
 q1 = prepareQuery('''
-  SELECT ?Subject ?Prop ?X WHERE { 
-    ?Subject rdf:type ns:Person.
-    ?Subject ?Prop ?X.
-    
+  SELECT ?Subject ?Properties WHERE { 
+    {?Subject rdf:type ns:Person.
+      ?Subject ?Properties ?Object} 
+    UNION 
+    {?Subject rdf:type ?x.
+      ?Subject ?Properties ?Object.
+      ?x rdfs:subClassOf ns:Person}
   }
   ''',
   initNs = { "ns": NS}
 )
 
+print("RDFLib")
+for s,p,o in g.triples((None, RDF.type, NS.Person)):
+  for s2,p2,o2 in g.triples((s, None, None)):
+    print(s2, p2)
+for s,p,o in g.triples((None, RDFS.subClassOf, NS.Person)):
+  for s2,p2,o2 in g.triples((None, RDF.type, s)):
+    for s3,p3,o3 in g.triples((s2, None, None)):
+      print(s3, p3)
+
+print("\n")
+
+print("SPARQL")
 for r in g.query(q1):
-  print(r.Subject, r.Prop)
+  print(r.Subject, r.Properties)
