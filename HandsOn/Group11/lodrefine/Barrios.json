@@ -12,6 +12,7 @@
         "repeatCount": 10,
         "description": "Text transform on cells in column Shape_Leng using expression grel:value.replace(\",\",\".\")"
     },
+
     {
         "op": "core/text-transform",
         "engineConfig": {
@@ -25,6 +26,7 @@
         "repeatCount": 10,
         "description": "Text transform on cells in column Shape_Area using expression grel:value.replace(\",\",\".\")"
     },
+    
     {
         "op": "core/text-transform",
         "engineConfig": {

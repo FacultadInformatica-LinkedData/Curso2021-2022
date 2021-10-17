@@ -9,7 +9,6 @@
      dc:creator "Grupo11" ; 
      dc:title "HandsOn 2" ;
 
-
 a:Accidente1 "Accidente 1";
 	:hasN_Expediente "2021S000235"^^xsd:string;
 	:hasFecha "01/01/2021"^^xsd:string;

@@ -8,7 +8,6 @@
  safeMadrid: a owl:Ontology ;
      dc:creator "Grupo11" ;
      dc:title "HandsOn 2" ;
-    
 
 ############################ Classes ###################################################
 

@@ -5,12 +5,14 @@
     "newColumnName": "MXASSETNUM",
     "description": "Rename column MXASSETNUM,C,12 to MXASSETNUM"
   },
+
   {
     "op": "core/column-rename",
     "oldColumnName": "DESCRIPTIO,C,105",
     "newColumnName": "DESCRIPTION",
     "description": "Rename column DESCRIPTIO,C,105 to DESCRIPTION"
   },
+  
   {
     "op": "core/column-rename",
     "oldColumnName": "MINTDISTRI,C,20",
