@@ -120,7 +120,7 @@
 
 <#ParkingMeterMap3> a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "./data/parquimetros-prueba.csv" ;
+        rml:source "./data/parquimetros-update2.csv" ;
         rml:referenceFormulation ql:CSV 
     ];
     rr:subjectMap [
