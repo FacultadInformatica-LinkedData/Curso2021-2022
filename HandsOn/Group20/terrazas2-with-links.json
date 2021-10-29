@@ -1,0 +1,37 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "mesas_es",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q577",
+        "name": "year"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column mesas_es to type Q577"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "mesas_es",
+    "expression": "grel:"https://wikidata.org/entity//%22+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "sameAsWikidataMesas",
+    "columnInsertIndex": 6,
+    "description": "Create column sameAsWikidataMesas at index 6 based on column mesas_es using expression grel:"https://wikidata.org/entity//%22+cell.recon.match.id"
+  }
+]

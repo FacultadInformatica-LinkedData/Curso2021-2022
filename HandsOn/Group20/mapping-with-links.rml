@@ -3,12 +3,13 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix ex: <http://localizalocales.es/lcc/ontology/locales#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @base <http://example.com/ns#>.
 
 
   <#Local>
   rml:logicalSource [
-    rml:source "./data/Terrazas2.csv" ;
+    rml:source "./data/Terrazas2-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -38,7 +39,7 @@
 
   <#Terraza>
   rml:logicalSource [
-    rml:source "./data/Terrazas2.csv" ;
+    rml:source "./data/Terrazas2-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
 
@@ -54,6 +55,15 @@
       rr:datatype xsd:float
     ]
   ];
+
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "sameAsWikidataMesas";
+      rr:datatype xsd:string 
+    ]
+  ];
+
 
   rr:predicateObjectMap [
     rr:predicate ex:numeroMesasAutorizadas;
@@ -85,7 +95,7 @@
 
   <#Licencia>
   rml:logicalSource [
-    rml:source "./data/Terrazas2.csv" ;
+    rml:source "./data/Terrazas2-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [

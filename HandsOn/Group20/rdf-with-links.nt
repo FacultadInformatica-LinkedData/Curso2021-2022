@@ -51,7 +51,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "31'34"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270183106,173> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270183106,173> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23515"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/152>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -64,7 +66,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "51'3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270417284,152> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270417284,152> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23591"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/81>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -77,7 +81,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "32'4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000259,81> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000259,81> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23591"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/131>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -90,7 +96,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "32'61"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270228855,131> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270228855,131> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23176"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/60>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -103,12 +111,14 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "34'07"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/180000598,60> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/180000598,60> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270418033,119>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/119> , <http://localizalocales.es/lcc/ontology/idLocal/270418033> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270418033> , <http://localizalocales.es/lcc/ontology/idTerraza/119> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -123,7 +133,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "51'84"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270183511,110> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270183511,110> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23763"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270020492>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -180,7 +192,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270266255,63>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270266255> , <http://localizalocales.es/lcc/ontology/idTerraza/63> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/63> , <http://localizalocales.es/lcc/ontology/idLocal/270266255> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "14/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -195,7 +207,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "4'68"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270299459,181> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270299459,181> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19647"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/160>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -208,7 +222,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "37'73"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270183220,160> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270183220,160> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23378"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/89>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -221,7 +237,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "48'6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270324826,89> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270324826,89> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23591"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270379680,85>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -241,7 +259,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "11'19"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270201818,68> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270201818,68> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19610"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/170000009,114>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -253,7 +273,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/180000598,60>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/180000598> , <http://localizalocales.es/lcc/ontology/idTerraza/60> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/60> , <http://localizalocales.es/lcc/ontology/idLocal/180000598> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "14/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -286,7 +306,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "125'37"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270033525,168> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270033525,168> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23236"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270182385>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -308,7 +330,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "55'43"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000809,147> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000809,147> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23772"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270183511,110>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -328,7 +352,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "28'8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170001120,76> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170001120,76> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270432683>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -350,7 +376,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "37'87"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/20001080,126> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/20001080,126> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23378"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270403150>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -372,7 +400,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "10'08"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000724,105> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000724,105> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23344"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/34>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -385,12 +415,14 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "11'16"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270078567,34> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270078567,34> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19620"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/170000832,103>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/103> , <http://localizalocales.es/lcc/ontology/idLocal/170000832> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/170000832> , <http://localizalocales.es/lcc/ontology/idTerraza/103> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -406,7 +438,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270471784,161>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270471784> , <http://localizalocales.es/lcc/ontology/idTerraza/161> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/161> , <http://localizalocales.es/lcc/ontology/idLocal/270471784> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -430,7 +462,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "48'59"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270156329,155> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270156329,155> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23591"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/285021312>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -441,6 +475,20 @@
         <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
                 <http://localizalocales.es/lcc/ontology/idTerraza/148> .
 
+<http://localizalocales.es/lcc/ontology/idLicencia/270267597,125>
+        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
+        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
+                <http://localizalocales.es/lcc/ontology/idTerraza/125> , <http://localizalocales.es/lcc/ontology/idLocal/270267597> ;
+        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
+                "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://localizalocales.es/lcc/ontology/idLicencia/270456160,82>
+        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
+        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
+                <http://localizalocales.es/lcc/ontology/idTerraza/82> , <http://localizalocales.es/lcc/ontology/idLocal/270456160> ;
+        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
+                "24/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
 <http://localizalocales.es/lcc/ontology/idLocal/20000172>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
         <http://localizalocales.es/lcc/ontology/locales#rotulo>
@@ -449,20 +497,6 @@
                 <http://localizalocales.es/lcc/ontology/idLicencia/20000172,122> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
                 <http://localizalocales.es/lcc/ontology/idTerraza/122> .
-
-<http://localizalocales.es/lcc/ontology/idLicencia/270456160,82>
-        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
-        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270456160> , <http://localizalocales.es/lcc/ontology/idTerraza/82> ;
-        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
-                "24/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-<http://localizalocales.es/lcc/ontology/idLicencia/270267597,125>
-        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
-        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/125> , <http://localizalocales.es/lcc/ontology/idLocal/270267597> ;
-        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
-                "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/84>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -475,7 +509,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "68'4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270181857,84> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270181857,84> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q24507"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/170000259>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -497,7 +533,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "9'72"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270266255,63> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270266255,63> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19636"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270456160>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -519,19 +557,21 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "90'57"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270314735,113> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270314735,113> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23596"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270477281,137>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/137> , <http://localizalocales.es/lcc/ontology/idLocal/270477281> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270477281> , <http://localizalocales.es/lcc/ontology/idTerraza/137> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "06/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/170000006,172>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/172> , <http://localizalocales.es/lcc/ontology/idLocal/170000006> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/170000006> , <http://localizalocales.es/lcc/ontology/idTerraza/172> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -547,7 +587,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270488062,115>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270488062> , <http://localizalocales.es/lcc/ontology/idTerraza/115> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/115> , <http://localizalocales.es/lcc/ontology/idLocal/270488062> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -561,16 +601,23 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270020492,108>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/108> , <http://localizalocales.es/lcc/ontology/idLocal/270020492> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270020492> , <http://localizalocales.es/lcc/ontology/idTerraza/108> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270490968,136>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/136> , <http://localizalocales.es/lcc/ontology/idLocal/270490968> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270490968> , <http://localizalocales.es/lcc/ontology/idTerraza/136> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "06/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://localizalocales.es/lcc/ontology/idLicencia/270182385,117>
+        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
+        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
+                <http://localizalocales.es/lcc/ontology/idTerraza/117> , <http://localizalocales.es/lcc/ontology/idLocal/270182385> ;
+        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
+                "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270488062>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -580,13 +627,6 @@
                 <http://localizalocales.es/lcc/ontology/idLicencia/270488062,115> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
                 <http://localizalocales.es/lcc/ontology/idTerraza/115> .
-
-<http://localizalocales.es/lcc/ontology/idLicencia/270182385,117>
-        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
-        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/117> , <http://localizalocales.es/lcc/ontology/idLocal/270182385> ;
-        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
-                "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/163>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -599,7 +639,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "86'68"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270191062,163> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270191062,163> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23295"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270286727>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -630,7 +672,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "17'36"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/20000100,121> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/20000100,121> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/50>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -643,7 +687,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "84'68"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/180000457,50> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/180000457,50> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q2360"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/170000796,165>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -685,7 +731,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/200001508,128>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/128> , <http://localizalocales.es/lcc/ontology/idLocal/200001508> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/200001508> , <http://localizalocales.es/lcc/ontology/idTerraza/128> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "06/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -707,7 +753,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "39'64"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000283,171> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000283,171> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270181096,164>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -719,7 +767,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270280806,159>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/159> , <http://localizalocales.es/lcc/ontology/idLocal/270280806> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270280806> , <http://localizalocales.es/lcc/ontology/idTerraza/159> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -768,7 +816,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "29'13"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270228707,79> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270228707,79> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23176"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/129>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -781,7 +831,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "39'06"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270458555,129> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270458555,129> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23515"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270033353>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -803,7 +855,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "33'65"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270075832,58> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270075832,58> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270201818>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -825,7 +879,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "19'44"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270020492,108> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270020492,108> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270202022>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -861,7 +917,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "90'72"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/280018318,179> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/280018318,179> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q24816"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270524837>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -892,7 +950,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "50'04"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270286727,87> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270286727,87> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23591"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/137>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -905,7 +965,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "15'84"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270477281,137> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270477281,137> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/66>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -918,7 +980,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "10'23"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/200000837,66> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/200000837,66> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19620"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/116>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -931,7 +995,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "21'78"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000013,116> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000013,116> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270280806>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -954,7 +1020,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270157776,132>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/132> , <http://localizalocales.es/lcc/ontology/idLocal/270157776> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270157776> , <http://localizalocales.es/lcc/ontology/idTerraza/132> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "06/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1016,7 +1082,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/170000013,116>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/170000013> , <http://localizalocales.es/lcc/ontology/idTerraza/116> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/116> , <http://localizalocales.es/lcc/ontology/idLocal/170000013> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1040,7 +1106,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "27"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270184841,95> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270184841,95> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23176"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/145>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1053,7 +1121,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "50'86"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/285031450,145> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/285031450,145> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23378"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/124>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1066,7 +1136,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "47'81"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/20001101,124> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/20001101,124> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23602"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/74>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1079,7 +1151,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "104'6"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270202022,74> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270202022,74> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23295"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/170000967>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -1093,7 +1167,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/170001098,78>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/170001098> , <http://localizalocales.es/lcc/ontology/idTerraza/78> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/78> , <http://localizalocales.es/lcc/ontology/idLocal/170001098> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "24/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1108,19 +1182,21 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "37'08"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000832,103> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000832,103> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19620"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270055919,127>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270055919> , <http://localizalocales.es/lcc/ontology/idTerraza/127> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/127> , <http://localizalocales.es/lcc/ontology/idLocal/270055919> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270534735,153>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/153> , <http://localizalocales.es/lcc/ontology/idLocal/270534735> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270534735> , <http://localizalocales.es/lcc/ontology/idTerraza/153> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1149,7 +1225,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "22'8"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270534735,153> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270534735,153> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23344"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/82>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1162,7 +1240,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "12'96"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270456160,82> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270456160,82> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/132>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1175,7 +1255,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "20'77"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270157776,132> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270157776,132> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23176"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/170000257>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -1197,7 +1279,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "97'2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270023348,111> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270023348,111> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23295"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/40>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1210,7 +1294,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "25'48"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/40002808,40> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/40002808,40> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270156329>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -1257,7 +1343,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "195'7"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270471784,161> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270471784,161> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23866"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270032503,91>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -1277,7 +1365,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "5'04"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270380946,69> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270380946,69> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19636"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270458555,129>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -1297,19 +1387,21 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "32'4"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270418033,119> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270418033,119> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23756"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270078567,34>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/34> , <http://localizalocales.es/lcc/ontology/idLocal/270078567> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270078567> , <http://localizalocales.es/lcc/ontology/idTerraza/34> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "04/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270417284,152>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270417284> , <http://localizalocales.es/lcc/ontology/idTerraza/152> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/152> , <http://localizalocales.es/lcc/ontology/idLocal/270417284> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1339,14 +1431,14 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270228855,131>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270228855> , <http://localizalocales.es/lcc/ontology/idTerraza/131> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/131> , <http://localizalocales.es/lcc/ontology/idLocal/270228855> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "06/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/40001459,44>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/40001459> , <http://localizalocales.es/lcc/ontology/idTerraza/44> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/44> , <http://localizalocales.es/lcc/ontology/idLocal/40001459> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "07/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1370,7 +1462,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "8'47"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/285021312,148> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/285021312,148> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19610"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/127>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1383,12 +1477,14 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "27'93"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270055919,127> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270055919,127> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/210000683,72>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/72> , <http://localizalocales.es/lcc/ontology/idLocal/210000683> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/210000683> , <http://localizalocales.es/lcc/ontology/idTerraza/72> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "23/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1403,7 +1499,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "44'38"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270185092,98> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270185092,98> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23602"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/77>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1416,7 +1514,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "64'12"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000836,77> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000836,77> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23772"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270185092,98>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -1454,7 +1554,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "7'2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/280067128,7> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/280067128,7> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19610"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/56>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1467,7 +1569,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "12'96"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000773,56> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000773,56> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19620"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/106>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1480,7 +1584,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "31'86"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270181482,106> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270181482,106> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270217569,154>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -1499,7 +1605,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/170000724,105>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/170000724> , <http://localizalocales.es/lcc/ontology/idTerraza/105> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/105> , <http://localizalocales.es/lcc/ontology/idLocal/170000724> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1530,7 +1636,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "94'07"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/280017278,177> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/280017278,177> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/156>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1543,7 +1651,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "20"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270363433,156> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270363433,156> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19620"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/85>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1556,7 +1666,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "18'72"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270379680,85> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270379680,85> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/135>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1569,7 +1681,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "20'52"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270438751,135> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270438751,135> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19610"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/114>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1582,7 +1696,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "27"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000009,114> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000009,114> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23344"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/170000836,77>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -1603,7 +1719,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270495851,41>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/41> , <http://localizalocales.es/lcc/ontology/idLocal/270495851> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270495851> , <http://localizalocales.es/lcc/ontology/idTerraza/41> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "07/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1628,7 +1744,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/170001203,104>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/104> , <http://localizalocales.es/lcc/ontology/idLocal/170001203> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/170001203> , <http://localizalocales.es/lcc/ontology/idTerraza/104> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1643,7 +1759,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "21'06"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270181096,164> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270181096,164> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23339"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/122>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1656,7 +1774,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "37'41"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/20000172,122> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/20000172,122> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23339"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270380946>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -1685,12 +1805,14 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "29'16"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/210000683,72> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/210000683,72> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23339"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270539656,109>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270539656> , <http://localizalocales.es/lcc/ontology/idTerraza/109> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/109> , <http://localizalocales.es/lcc/ontology/idLocal/270539656> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1714,7 +1836,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "21'66"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270076142,51> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270076142,51> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/170000773>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -1736,19 +1860,21 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "25'92"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000673,101> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000673,101> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/280018318,179>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/280018318> , <http://localizalocales.es/lcc/ontology/idTerraza/179> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/179> , <http://localizalocales.es/lcc/ontology/idLocal/280018318> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270191062,163>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/163> , <http://localizalocales.es/lcc/ontology/idLocal/270191062> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270191062> , <http://localizalocales.es/lcc/ontology/idTerraza/163> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1764,7 +1890,14 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/170000673,101>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/101> , <http://localizalocales.es/lcc/ontology/idLocal/170000673> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/170000673> , <http://localizalocales.es/lcc/ontology/idTerraza/101> ;
+        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
+                "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://localizalocales.es/lcc/ontology/idLicencia/270314735,113>
+        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
+        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
+                <http://localizalocales.es/lcc/ontology/idTerraza/113> , <http://localizalocales.es/lcc/ontology/idLocal/270314735> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1776,13 +1909,6 @@
                 <http://localizalocales.es/lcc/ontology/idLicencia/270032503,91> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
                 <http://localizalocales.es/lcc/ontology/idTerraza/91> .
-
-<http://localizalocales.es/lcc/ontology/idLicencia/270314735,113>
-        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
-        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270314735> , <http://localizalocales.es/lcc/ontology/idTerraza/113> ;
-        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
-                "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270267597>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -1805,7 +1931,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/170002005,83>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/83> , <http://localizalocales.es/lcc/ontology/idLocal/170002005> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/170002005> , <http://localizalocales.es/lcc/ontology/idTerraza/83> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "24/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1820,7 +1946,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "40'05"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000006,172> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000006,172> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23515"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270286727,87>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -1849,7 +1977,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "65'55"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270540061,151> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270540061,151> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23756"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/80>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1862,7 +1992,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "111'3"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000967,80> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000967,80> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23763"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/130>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -1875,7 +2007,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "31'35"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270524837,130> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270524837,130> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270183106>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -1904,7 +2038,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "72'5"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270539656,109> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270539656,109> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23772"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270033525>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -1972,7 +2108,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270363433,156>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270363433> , <http://localizalocales.es/lcc/ontology/idTerraza/156> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/156> , <http://localizalocales.es/lcc/ontology/idLocal/270363433> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -1988,7 +2124,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270075832,58>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270075832> , <http://localizalocales.es/lcc/ontology/idTerraza/58> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/58> , <http://localizalocales.es/lcc/ontology/idLocal/270075832> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "14/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2021,7 +2157,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "64'03"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270280806,159> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270280806,159> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23763"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270217569>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2043,7 +2181,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "97'56"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/180000366,88> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/180000366,88> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23857"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/138>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2056,7 +2196,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "18'9"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270309378,138> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270309378,138> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23176"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/67>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2069,7 +2211,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "36'78"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/280067055,67> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/280067055,67> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23378"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/117>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2082,7 +2226,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "99'77"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270182385,117> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270182385,117> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23772"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/200000837,66>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -2118,12 +2264,14 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "231'32"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270250040,167> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270250040,167> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23847"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/20000100,121>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/121> , <http://localizalocales.es/lcc/ontology/idLocal/20000100> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/20000100> , <http://localizalocales.es/lcc/ontology/idTerraza/121> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2137,7 +2285,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270184841,95>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270184841> , <http://localizalocales.es/lcc/ontology/idTerraza/95> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/95> , <http://localizalocales.es/lcc/ontology/idLocal/270184841> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "28/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2152,7 +2300,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "12'96"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270267597,125> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270267597,125> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19620"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/54>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2165,7 +2315,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "21'66"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/280062208,54> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/280062208,54> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270071068>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2187,7 +2339,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "30"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170001203,104> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170001203,104> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23176"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/33>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2200,7 +2354,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "21'06"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270403150,33> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270403150,33> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23339"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/20000100>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2256,7 +2412,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "44'64"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270057250,175> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270057250,175> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23596"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/200001508>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2294,7 +2452,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "60'01"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270217569,154> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270217569,154> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23602"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/83>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2307,7 +2467,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "127'98"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170002005,83> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170002005,83> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23763"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/20001101>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2330,7 +2492,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270524837,130>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/270524837> , <http://localizalocales.es/lcc/ontology/idTerraza/130> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/130> , <http://localizalocales.es/lcc/ontology/idLocal/270524837> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "06/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2345,7 +2507,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "72"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000123,112> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000123,112> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23236"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/41>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2358,12 +2522,14 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "21'04"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270495851,41> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270495851,41> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/170000259,81>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/170000259> , <http://localizalocales.es/lcc/ontology/idTerraza/81> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/81> , <http://localizalocales.es/lcc/ontology/idLocal/170000259> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "24/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2393,7 +2559,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270309378,138>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/138> , <http://localizalocales.es/lcc/ontology/idLocal/270309378> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270309378> , <http://localizalocales.es/lcc/ontology/idTerraza/138> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "06/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2424,19 +2590,21 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "83'16"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270032503,91> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270032503,91> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23857"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/20001101,124>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/124> , <http://localizalocales.es/lcc/ontology/idLocal/20001101> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/20001101> , <http://localizalocales.es/lcc/ontology/idTerraza/124> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/280017278,177>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/177> , <http://localizalocales.es/lcc/ontology/idLocal/280017278> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/280017278> , <http://localizalocales.es/lcc/ontology/idTerraza/177> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2451,7 +2619,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "77"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270033353,120> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270033353,120> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23772"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/20001080>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2501,7 +2671,7 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/270324826,89>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/89> , <http://localizalocales.es/lcc/ontology/idLocal/270324826> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270324826> , <http://localizalocales.es/lcc/ontology/idTerraza/89> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "25/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2532,7 +2702,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "19'46"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270519524,149> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270519524,149> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/78>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2545,7 +2717,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "47'96"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170001098,78> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170001098,78> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23515"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/128>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2558,7 +2732,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "45'22"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/200001508,128> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/200001508,128> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23596"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/180000598>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2580,7 +2756,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "98'81"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000308,107> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000308,107> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q24507"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/36>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2593,7 +2771,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "7'2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/40002021,36> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/40002021,36> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19610"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270539656>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2624,7 +2804,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "25'92"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270432683,157> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270432683,157> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23348"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/270495851>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2662,7 +2844,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "37"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000257,86> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000257,86> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23515"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/136>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2675,7 +2859,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "16'38"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270490968,136> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270490968,136> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23344"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/115>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2688,7 +2874,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "77'76"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270488062,115> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270488062,115> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23857"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270023348,111>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
@@ -2708,12 +2896,14 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "19'44"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/40001459,44> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/40001459,44> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19774"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/40002021,36>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/40002021> , <http://localizalocales.es/lcc/ontology/idTerraza/36> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/36> , <http://localizalocales.es/lcc/ontology/idLocal/40002021> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "07/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2727,9 +2917,16 @@
 <http://localizalocales.es/lcc/ontology/idLicencia/180000366,88>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/88> , <http://localizalocales.es/lcc/ontology/idLocal/180000366> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/180000366> , <http://localizalocales.es/lcc/ontology/idTerraza/88> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "25/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://localizalocales.es/lcc/ontology/idLicencia/270183106,173>
+        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
+        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
+                <http://localizalocales.es/lcc/ontology/idTerraza/173> , <http://localizalocales.es/lcc/ontology/idLocal/270183106> ;
+        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
+                "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/170000006>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2739,13 +2936,6 @@
                 <http://localizalocales.es/lcc/ontology/idLicencia/170000006,172> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneTerraza>
                 <http://localizalocales.es/lcc/ontology/idTerraza/172> .
-
-<http://localizalocales.es/lcc/ontology/idLicencia/270183106,173>
-        a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
-        <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/173> , <http://localizalocales.es/lcc/ontology/idLocal/270183106> ;
-        <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
-                "09/05/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLocal/170000724>
         a       <http://localizalocales.es/lcc/ontology/locales#Local> ;
@@ -2790,7 +2980,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "53'2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/170000796,165> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/170000796,165> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23591"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/73>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2803,19 +2995,21 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "97'2"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/280060978,73> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/280060978,73> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q23295"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/20000172,122>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idLocal/20000172> , <http://localizalocales.es/lcc/ontology/idTerraza/122> ;
+                <http://localizalocales.es/lcc/ontology/idTerraza/122> , <http://localizalocales.es/lcc/ontology/idLocal/20000172> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/270033353,120>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
         <http://localizalocales.es/lcc/ontology/locales#asociadaA>
-                <http://localizalocales.es/lcc/ontology/idTerraza/120> , <http://localizalocales.es/lcc/ontology/idLocal/270033353> ;
+                <http://localizalocales.es/lcc/ontology/idLocal/270033353> , <http://localizalocales.es/lcc/ontology/idTerraza/120> ;
         <http://localizalocales.es/lcc/ontology/locales#fechaLicencia>
                 "30/04/2014"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
@@ -2830,7 +3024,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "12'43"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270071068,52> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270071068,52> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q19636"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idTerraza/102>
         a       <http://localizalocales.es/lcc/ontology/locales#Terraza> ;
@@ -2843,7 +3039,9 @@
         <http://localizalocales.es/lcc/ontology/locales#superficie>
                 "99'12"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://localizalocales.es/lcc/ontology/locales#tieneLicencia>
-                <http://localizalocales.es/lcc/ontology/idLicencia/270456985,102> .
+                <http://localizalocales.es/lcc/ontology/idLicencia/270456985,102> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q24560"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://localizalocales.es/lcc/ontology/idLicencia/285021312,148>
         a       <http://localizalocales.es/lcc/ontology/locales#Licencia> ;
